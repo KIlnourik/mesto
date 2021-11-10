@@ -1,0 +1,6 @@
+.page-container {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  margin: 0 auto;
+  max-width: 880px;
+}

@@ -7,7 +7,7 @@
 1. БЭМ
 2. Nested
 3. Адаптивная верстка
-4. Flexbox 
+4. Flexbox
 5. Grid layout
 6. Javascript
 
