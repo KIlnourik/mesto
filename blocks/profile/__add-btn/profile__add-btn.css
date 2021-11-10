@@ -1,0 +1,34 @@
+.profile__add-btn {
+  padding: 0;
+  margin: 0;
+  margin-top: 36px;
+  width: 282px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  position: relative;
+}
+.profile__add-btn::before {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: auto;
+
+}
+.profile__add-btn::after {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  transform: rotate(90deg);
+  top: auto;
+  left: auto;
+}
+.profile__add-btn:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
