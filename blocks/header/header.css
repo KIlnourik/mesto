@@ -3,8 +3,6 @@
   padding-top: 28px;
   padding-left: 27px;
   padding-bottom: 30px;
-  /* border-bottom: 1px solid #545454;
-  box-sizing: border-box; */
   position: relative;
 }
 .header::after {
