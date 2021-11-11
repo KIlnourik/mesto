@@ -18,6 +18,7 @@
 @import url("../blocks/photos/photos.css");
 @import url("../blocks/photos/__container/photos__container.css");
 @import url("../blocks/photos/__photo/photos__photo.css");
+@import url("../blocks/photos/__desc-container/photos__desc-container.css");
 @import url("../blocks/photos/__title/photos__title.css");
 @import url("../blocks/photos/__like-icon/photos__like-icon.css");
 @import url("../blocks/photos/__like-icon/_active/photos__like-icon_active.css");

@@ -2,82 +2,93 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>Проект: Место</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Проект: Место</title>
 </head>
 
 <body class="page">
-    <div class="page-container">
-        <header class="header">
-            <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
-        </header>
-        <main class="content">
-            <h1 class="page-title visually-hidden">Проект: Место</h1>
-            <section class="profile">
-                <img src="./images/avatar.jpeg" alt="аватар" class="profile__avatar">
-                <div class="profile__text-container">
-                  <h2 class="profile__name">Жак-Ив Кусто</h2>
-                  <button class="profile__edit-btn">
-                    <img class="profile__edit-icon" src="./images/name-edit-btn.svg" alt="иконка редактирования имени">
-                  </button>
-                  <p class="profile__job">Исследователь океана</p>
-                </div>
-                <button class="profile__add-btn"></button>
-            </section>
-            <section class="photos">
-                <div class="photos__container">
-                    <img src="./images/photos-karachaevo-cherkess.jpeg" alt="карачаево-черкесск"  class="photos__photo">
-                    <h2 class="photos__title">Карачаево-Черкесск</h2>
-                    <div class="photos__like-icon">
-                </div>
-                <div class="photos__container">
-                    <img src="./images/photos-elbrus.jpeg" alt="Эльбрус на рассвете" class="photos__photo">
-                    <h2 class="photos__title">Эльбрус</h2>
-                    <div class="photos__like-icon">
-                </div>
-                <div class="photos__container">
-                    <img src="./images/photos-dombay.jpeg" alt="Домбай" class="photos__photo">
-                    <h2 class="photos__title">Домбай</h2>
-                    <div class="photos__like-icon">
-                </div>
-                <div class="photos__container">
-                    <img src="./images/photo-baikal.jpg" alt="Байкал" class="photos__photo">
-                    <h2 class="photos__title">Байкал</h2>
-                    <div class="photos__like-icon">
-                </div>
-                <div class="photos__container">
-                    <img src="./images/photo-kamchatka-1.jpg" alt="Камчатка" class="photos__photo">
-                    <h2 class="photos__title">Камчатка</h2>
-                    <div class="photos__like-icon">
-                </div>
-                <div class="photos__container">
-                    <img src="./images/photo-baikal-2.jpg" alt="Байкал" class="photos__photo">
-                    <h2 class="photos__title">Байкал</h2>
-                    <div class="photos__like-icon">
-                </div>
-            </section>
-            <section class="popup">
-                <div class="popup__container">
-                    <form action="" method="post" class="popup__form">
-                        <label for="name" class="popup__input-label">
-                            <input type="text" class="popup__input popup__input_name" id="name" value="Жак-Ив Кусто">
-                        </label>
-                        <label for="job" class="popup__input-label">
-                            <input type="text" class="popup__input popup__input_job" id="job"
-                                value="Исследователь океана">
-                        </label>
-                        <input type="submit" class="popup__save-btn" value="Сохранить">
-                    </form>
-                    <button class="popup__close"></button>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <h2 class="footer__copyright">&copy; 2020 Mesto Russia</h2>
-        </footer>
-    </div>
+  <div class="page-container">
+    <header class="header">
+      <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
+    </header>
+    <main class="content">
+      <h1 class="page-title visually-hidden">Проект: Место</h1>
+      <section class="profile">
+        <img src="./images/avatar.jpeg" alt="аватар" class="profile__avatar">
+        <div class="profile__text-container">
+          <h2 class="profile__name">Жак-Ив Кусто</h2>
+          <a class="profile__edit-btn">
+            <img class="profile__edit-icon" src="./images/name-edit-btn.svg" alt="иконка редактирования имени">
+          </a>
+          <p class="profile__job">Исследователь океана</p>
+        </div>
+        <button class="profile__add-btn"></button>
+      </section>
+      <section class="photos">
+        <div class="photos__container">
+          <img src="./images/photos-karachaevo-cherkess.jpeg" alt="карачаево-черкесск" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Карачаево-Черкесск</h2>
+            <button class="photos__like-icon photos__like-icon_active"></button>
+          </div>
+        </div>
+        <div class="photos__container">
+          <img src="./images/photos-elbrus.jpeg" alt="Эльбрус на рассвете" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Эльбрус</h2>
+            <div class="photos__like-icon"></div>
+          </div>
+        </div>
+        <div class="photos__container">
+          <img src="./images/photos-dombay.jpeg" alt="Домбай" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Домбай</h2>
+            <button class="photos__like-icon"></button>
+          </div>
+        </div>
+        <div class="photos__container">
+          <img src="./images/photo-baikal.jpg" alt="Байкал" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Байкал</h2>
+            <button class="photos__like-icon"></button>
+          </div>
+        </div>
+        <div class="photos__container">
+          <img src="./images/photo-kamchatka-1.jpg" alt="Камчатка" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Камчатка</h2>
+            <button class="photos__like-icon"></button>
+          </div>
+        </div>
+        <div class="photos__container">
+          <img src="./images/photo-baikal-2.jpg" alt="Байкал" class="photos__photo">
+          <div class="photos__desc-container">
+            <h2 class="photos__title">Байкал</h2>
+            <button class="photos__like-icon"></button>
+          </div>
+        </div>
+      </section>
+      <section class="popup">
+        <div class="popup__container">
+          <form action="" method="post" class="popup__form">
+            <label for="name" class="popup__input-label">
+              <input type="text" class="popup__input popup__input_name" id="name" value="Жак-Ив Кусто">
+            </label>
+            <label for="job" class="popup__input-label">
+              <input type="text" class="popup__input popup__input_job" id="job" value="Исследователь океана">
+            </label>
+            <input type="submit" class="popup__save-btn" value="Сохранить">
+          </form>
+          <button class="popup__close"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__copyright">&copy; 2020 Mesto Russia</h2>
+    </footer>
+  </div>
 </body>
 
 </html>
