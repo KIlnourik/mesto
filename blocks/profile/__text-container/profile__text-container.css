@@ -1,4 +1,11 @@
 .profile__text-container {
-  position: relative;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .profile__text-container {
+    padding-left: 30px;
+    justify-self: start;
+    text-align: left;
+    flex: 1;
+  }
 }

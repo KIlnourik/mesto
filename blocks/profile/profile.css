@@ -7,3 +7,15 @@
   align-items: center;
   box-sizing: border-box;
 }
+@media screen and (min-width: 768px) {
+  .profile {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .profile {
+    padding: 0;
+    padding-top: 40px;
+  }
+}

@@ -5,4 +5,16 @@
   line-height: 33px;
   font-weight: 500;
   letter-spacing: 1.5px;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .profile__name {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .profile__name {
+    font-size: 42px;
+    line-height: 48px;
+  }
 }

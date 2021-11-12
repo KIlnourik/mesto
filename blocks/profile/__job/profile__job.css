@@ -5,3 +5,10 @@
   line-height: 17px;
   letter-spacing: 0.5px;
 }
+@media screen and (min-width: 1024px) {
+  .profile__job {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

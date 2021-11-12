@@ -16,3 +16,10 @@
   left: 0;
   bottom: 0;
 }
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 0;
+    padding-top: 45px;
+    padding-bottom: 41px;
+  }
+}
