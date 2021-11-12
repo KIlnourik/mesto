@@ -11,4 +11,4 @@
 5. Grid layout
 6. Javascript
 
-## Ссылка на проект в [Github Pages]()
+## Ссылка на проект в [Github Pages](https://kilnourik.github.io/mesto/)
