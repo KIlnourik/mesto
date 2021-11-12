@@ -71,25 +71,26 @@
           </div>
         </div>
       </section>
-      <section class="popup">
-        <div class="popup__container">
-          <form action="#" method="post" class="popup__form">
-            <label for="name" class="popup__input-label">
-              <input type="text" class="popup__input popup__input_name" id="name" value="Жак-Ив Кусто">
-            </label>
-            <label for="job" class="popup__input-label">
-              <input type="text" class="popup__input popup__input_job" id="job" value="Исследователь океана">
-            </label>
-            <input type="submit" class="popup__save-btn" value="Сохранить">
-          </form>
-          <button class="popup__close"></button>
-        </div>
-      </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
   </div>
+  <section class="popup popup_opened">
+    <div class="popup__container">
+      <button class="popup__close"></button>
+      <form action="#" method="post" class="popup__form">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <label for="name" class="popup__input-label">
+          <input type="text" class="popup__input popup__input_name" id="name" value="Жак-Ив Кусто">
+        </label>
+        <label for="job" class="popup__input-label">
+          <input type="text" class="popup__input popup__input_job" id="job" value="Исследователь океана">
+        </label>
+        <input type="submit" class="popup__save-btn" value="Сохранить">
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>
