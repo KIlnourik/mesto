@@ -4,6 +4,9 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 @media screen and (min-width: 1024px) {
   .profile__job {
