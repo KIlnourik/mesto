@@ -1,4 +1,4 @@
-.photos__like-icon {
+.card__like-icon {
   margin: 0;
   padding: 0;
   width: 22px;
@@ -9,7 +9,7 @@
   border: none;
   box-sizing: border-box;
 }
-.photo__like-icon:hover {
+.card__like-icon:hover {
   opacity: 0.5;
   transition: opactity 0.5s ease;
 }

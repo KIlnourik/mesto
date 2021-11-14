@@ -14,85 +14,81 @@
       <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
     </header>
     <main class="content">
-      <h1 class="page__title visually-hidden">Проект: место</h1>
       <section class="profile">
         <img src="./images/avatar.jpeg" alt="аватар" class="profile__avatar">
         <div class="profile__text-container">
           <div class="profile__name-wrapper">
-            <p class="profile__name">Жак-Ив Кусто
-            </p>
-            <a class="profile__edit-btn">
-              <img class="profile__edit-icon" src="./images/name-edit-btn.svg" alt="иконка редактирования имени">
-            </a>
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <button class="profile__edit-btn" type="button"></button>
           </div>
           <p class="profile__job">Исследователь океана</p>
         </div>
-        <button class="profile__add-btn"></button>
+        <button class="profile__add-btn" type="button"></button>
       </section>
       <section class="photos">
-        <div class="photos__container">
-          <img src="./images/photos-karachaevo-cherkess.jpeg" alt="карачаево-черкесск" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Карачаево-Черкесск</h2>
-            <button class="photos__like-icon"></button>
+        <article class="photos__card card">
+          <img src="./images/photos-karachaevo-cherkess.jpeg" alt="карачаево-черкесск" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Карачаево-Черкесск</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
-        <div class="photos__container">
-          <img src="./images/photos-elbrus.jpeg" alt="Эльбрус на рассвете" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Эльбрус</h2>
-            <div class="photos__like-icon"></div>
+        </article>
+        <article class="photos__card card">
+          <img src="./images/photos-elbrus.jpeg" alt="Эльбрус на рассвете" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Эльбрус</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
-        <div class="photos__container">
-          <img src="./images/photos-dombay.jpeg" alt="Домбай" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Домбай</h2>
-            <button class="photos__like-icon"></button>
+        </article>
+        <article class="photos__card card">
+          <img src="./images/photos-dombay.jpeg" alt="Домбай" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Домбай</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
-        <div class="photos__container">
-          <img src="./images/photo-baikal.jpg" alt="Байкал" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Байкал</h2>
-            <button class="photos__like-icon"></button>
+        </article>
+        <article class="photos__card card">
+          <img src="./images/photo-baikal.jpg" alt="Байкал" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Байкал</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
-        <div class="photos__container">
-          <img src="./images/photo-kamchatka-1.jpg" alt="Камчатка" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Камчатка</h2>
-            <button class="photos__like-icon"></button>
+        </article>
+        <article class="photos__card card">
+          <img src="./images/photo-kamchatka-1.jpg" alt="Камчатка" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Камчатка</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
-        <div class="photos__container">
-          <img src="./images/photo-baikal-2.jpg" alt="Байкал" class="photos__photo">
-          <div class="photos__desc-container">
-            <h2 class="photos__title">Байкал</h2>
-            <button class="photos__like-icon"></button>
+        </article>
+        <article class="photos__card card">
+          <img src="./images/photo-baikal-2.jpg" alt="Байкал" class="card__photo">
+          <div class="card__desc-container">
+            <h2 class="card__title">Байкал</h2>
+            <button class="card__like-icon" type="button"></button>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
   </div>
-  <section class="popup">
+  <div class="popup">
     <div class="popup__container">
-      <button class="popup__close"></button>
-      <form action="#" method="post" class="popup__form">
+      <button class="popup__close" type="button"></button>
+      <form action="#" method="post" class="popup__form" name="popup-form">
         <h2 class="popup__title">Редактировать профиль</h2>
         <label for="name" class="popup__input-label">
-          <input type="text" class="popup__input popup__input_name" id="name" value="Жак-Ив Кусто">
+          <input type="text" class="popup__input" id="name" name="name">
         </label>
         <label for="job" class="popup__input-label">
-          <input type="text" class="popup__input popup__input_job" id="job" value="Исследователь океана">
+          <input type="text" class="popup__input" id="job" name="job">
         </label>
         <input type="submit" class="popup__save-btn" value="Сохранить">
       </form>
     </div>
-  </section>
+  </div>
   <script src="scripts/index.js"></script>
 </body>
 

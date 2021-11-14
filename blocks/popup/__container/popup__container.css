@@ -1,5 +1,5 @@
 .popup__container {
-  margin: auto;
+  margin: 123px auto 0;
   padding: 0;
   min-width: 282px;
   max-width: 430px;
@@ -12,5 +12,6 @@
 @media screen and (min-width: 1024px) {
   .popup__container {
     min-height: 330px;
+    margin: 195px auto 0;
   }
 }
